@@ -10,8 +10,8 @@ import { Link, useParams } from "wouter";
 
 // ─── Assets ───────────────────────────────────────────────────────────────────
 const ASSETS = {
-  logo: "https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663407421710/fqxdLbTBuAhxRleH.png?Expires=1804739201&Signature=UtgNupPjx056USQgv9myA-UELbE42JGzyJcArkthf02ovz75jLNhWMxxlm8atpzmz0j9ZH9O1x-vZCJXk-A9CgOBpdSIXcMVIH0kZpcf2yABedVEnb5vsbi06Gt3OPzxlFMiNxKtqHlA70ABgllGLS5FhKbVbZHYRvR3LIkH-cFma-XEJeJfACGevKqx6sa1vsHB65sLmZWIKltcXOOYUo2xxVVAOJNF0K6aH9EvFzDuUol~vXRQRwfrhIVe0CV87r5MoAEoOpzZM13vQ8noFRZz7usFeomD66Nr2SfSFIBYjkysaPP5wRezl7z9Gb~JxH2CZnNoG5XaP94kxw5akA__&Key-Pair-Id=K2HSFNDJXOU9YS",
-  medicineWheel: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/YkkWDodg4CAnRmp25yhfTA/medicine-wheel-simple-AhtwZRYz96CkosUPLDm4w8.webp",
+  logo: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/logo.svg",
+  medicineWheel: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/medicine-wheel.svg",
 };
 
 // ─── Course Data ──────────────────────────────────────────────────────────────

@@ -12,11 +12,11 @@ import { Link } from "wouter";
 
 // ─── Asset URLs ───────────────────────────────────────────────────────────────
 const ASSETS = {
-  heroBg: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/YkkWDodg4CAnRmp25yhfTA/hero-bg-aSzU3RCrj9GCc6Vvz53tk2.webp",
-  communityHands: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/YkkWDodg4CAnRmp25yhfTA/community-hands-XzyvF6kxwRSVKPzneME6Gr.webp",
-  traditionalFoods: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/YkkWDodg4CAnRmp25yhfTA/traditional-foods-BFKhMAaANhBBeDJQoiDzuc.webp",
-  medicineWheel: "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/YkkWDodg4CAnRmp25yhfTA/medicine-wheel-simple-AhtwZRYz96CkosUPLDm4w8.webp",
-  logo: "https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310519663407421710/fqxdLbTBuAhxRleH.png?Expires=1804739201&Signature=UtgNupPjx056USQgv9myA-UELbE42JGzyJcArkthf02ovz75jLNhWMxxlm8atpzmz0j9ZH9O1x-vZCJXk-A9CgOBpdSIXcMVIH0kZpcf2yABedVEnb5vsbi06Gt3OPzxlFMiNxKtqHlA70ABgllGLS5FhKbVbZHYRvR3LIkH-cFma-XEJeJfACGevKqx6sa1vsHB65sLmZWIKltcXOOYUo2xxVVAOJNF0K6aH9EvFzDuUol~vXRQRwfrhIVe0CV87r5MoAEoOpzZM13vQ8noFRZz7usFeomD66Nr2SfSFIBYjkysaPP5wRezl7z9Gb~JxH2CZnNoG5XaP94kxw5akA__&Key-Pair-Id=K2HSFNDJXOU9YS",
+  heroBg: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/hero-bg.webp",
+  communityHands: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/sage-medicine.webp",
+  traditionalFoods: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/traditional-foods.webp",
+  medicineWheel: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/medicine-wheel.svg",
+  logo: "https://pub-9e14b2010cb245cd94b6fd11c77c5524.r2.dev/logo.svg",
 };
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
@@ -383,7 +383,7 @@ export default function Home() {
 
             <FadeSection>
               <div style={{ position: "relative" }}>
-                <img src={ASSETS.communityHands} alt="Elder and youth hands holding sage — intergenerational knowledge" style={{ width: "100%", borderRadius: "4px", boxShadow: "0 12px 40px rgba(0,0,0,0.15)", display: "block" }} />
+                <img src={ASSETS.communityHands} alt="Sage bundle and sweetgrass braid — traditional medicines" style={{ width: "100%", borderRadius: "4px", boxShadow: "0 12px 40px rgba(0,0,0,0.15)", display: "block" }} />
                 <div style={{ position: "absolute", bottom: "-1.5rem", right: "-1.5rem", background: "#A0522D", color: "white", padding: "1.25rem 1.5rem", borderRadius: "2px", boxShadow: "0 4px 16px rgba(0,0,0,0.15)" }}>
                   <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.8rem", lineHeight: 1 }}>{totalResources}+</div>
                   <div style={{ fontFamily: "'Lato', sans-serif", fontSize: "0.78rem", letterSpacing: "0.08em", textTransform: "uppercase", marginTop: "0.25rem", opacity: 0.85 }}>Resources</div>
